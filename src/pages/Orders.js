@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { getProducts } from "../data/products";
+import { NavLink } from "react-router-dom";
 
 function Orders() {
  const [orders, setOrders] = useState(null);
@@ -40,7 +41,7 @@ function Orders() {
   output = showProducts.map((product) => {
    return (
     <div key={product.productId}>
-     <div className="row justify-content-center my-5">
+     <div className="row justify-content-center align-items-center my-5 px-3 mx-auto text-center">
       <div className="col-md-4 p-auto">
        <img src={product.image} alt={product.title} height={200} width={180} />
       </div>
@@ -49,6 +50,7 @@ function Orders() {
        <p className="lead fw-bold">
         {/* {count? how many?} */}
        </p>
+      <NavLink to={`/products/${product.productId}`} className="btn btn-outline-dark lead">Go product</NavLink>
       </div>
      </div>
     </div>
