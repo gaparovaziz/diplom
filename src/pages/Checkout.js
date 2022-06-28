@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 function Checkout() {
  const dispatch = useDispatch();
@@ -13,11 +13,11 @@ function Checkout() {
   localId: store.auth.localId,
  }));
 
- // useEffect(() => {
- //   if (!localId) {
- //     navigate('/auth');
- //   }
- // }, [localId, navigate]);
+ useEffect(() => {
+   if (!localId) {
+     navigate('/auth');
+   }
+ }, [localId, navigate]);
 
  function onCheckout(event) {
   event.preventDefault();
