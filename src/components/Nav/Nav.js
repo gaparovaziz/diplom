@@ -7,7 +7,7 @@ function Nav() {
 
  const number = useSelector(store => {
    return Object.values(store.cart.items).reduce((sum, number) => sum + number, 0);
- }); 
+ });  
 
  return (
   <div>
