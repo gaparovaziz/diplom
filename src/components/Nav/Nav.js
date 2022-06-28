@@ -16,8 +16,8 @@ function Nav() {
      <NavLink className="navbar-brand fw-bold fs-2" to="/">
       Style accrossories
      </NavLink>
-     <button
-      className="navbar-toggler"
+     <button 
+      className="navbar-toggler" 
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent"
