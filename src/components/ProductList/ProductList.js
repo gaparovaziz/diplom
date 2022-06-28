@@ -22,12 +22,12 @@ function ProductList({ products }) {
     </div>
    </div>
 
-   <div className="buttons d-flex justify-content-center mb-5 pb-5">
-     <button className="btn btn-outline-dark me-2" onClick={()=>setNewList(products)}>All</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("men's clothing")}>Men's bracelets</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("women's clothing")}>Women's bracelets</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("watch")}>watches</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("headphones")}>headphones</button>
+   <div className="buttons d-flex flex-wrap justify-content-center mb-5 pb-5">
+     <button className="btn btn-outline-dark mb-1 me-2" onClick={()=>setNewList(products)}>All</button>
+     <button className="btn btn-outline-dark mb-1 me-2" onClick={()=>filterProduct("men's clothing")}>Men's bracelets</button>
+     <button className="btn btn-outline-dark mb-1 me-2" onClick={()=>filterProduct("women's clothing")}>Women's bracelets</button>
+     <button className="btn btn-outline-dark mb-1 me-2" onClick={()=>filterProduct("watch")}>watches</button>
+     <button className="btn btn-outline-dark mb-1" onClick={()=>filterProduct("headphones")}>headphones</button>
     </div>
 
    <div className="row">{productItems}</div>
