@@ -12,6 +12,7 @@ import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 import SignOut from "./pages/SignOut";
 import About from "./pages/About";
+import Orders from "./pages/Orders";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/orders" element={<Orders/>}/>
         </Routes>
       </Layout>
     </div>
