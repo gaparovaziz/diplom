@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const checkout = createAsyncThunk('cart/checkout', async (order, thunkAPI) => {
-  const response = await axios.post('https://my-diplom-6b530-default-rtdb.firebaseio.com/orders.json', order);
+  const response = await axios.post('https://diplom-5a77d-default-rtdb.firebaseio.com/orders.json', order);
 
   return response.data;
 });
