@@ -20,7 +20,7 @@ function Product() {
  return (
   <div className="row p-5" style={{alignItems: 'center'}}>
    <div className="col-md-6 mr-14">
-    <img src={productId.image} alt={productId.title} height={400} width={400} />
+    <img src={productId.image} alt={productId.title}  style={{width: '100%'}} />
    </div>
    <div className="col-md-6">
     <h4 className="text-uppercase text-black-50">{productId.category}</h4>
