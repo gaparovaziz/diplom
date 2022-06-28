@@ -24,10 +24,10 @@ function ProductList({ products }) {
 
    <div className="buttons d-flex justify-content-center mb-5 pb-5">
      <button className="btn btn-outline-dark me-2" onClick={()=>setNewList(products)}>All</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("men's clothing")}>Men's Clothing</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("women's clothing")}>Women's Clothing</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("jewelery")}>Jewelery</button>
-     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("electronics")}>Electronic</button>
+     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("men's clothing")}>Men's bracelets</button>
+     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("women's clothing")}>Women's bracelets</button>
+     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("watch")}>watches</button>
+     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("headphones")}>headphones</button>
     </div>
 
    <div className="row">{productItems}</div>
