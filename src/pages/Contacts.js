@@ -37,7 +37,7 @@ function Contacts() {
         <ul className="icon-list ps-0">
          <li className="d-flex align-items-start mb-1">
           <a
-           href="https://github.com/twbs/bootstrap-npm-starter"
+           href="https://www2.deloitte.com/kz/en/pages/finance/articles/setting-up-corporate-ethics-and-compliance-hotline.html"
           >
            Hot line our company 
           </a>
@@ -55,20 +55,20 @@ function Contacts() {
         </p>
         <ul className="icon-list ps-0">
          <li className="d-flex align-items-start mb-1">
-          <a href="/docs/5.2/getting-started/introduction/">
+          <a href="https:/wa.me/966505505400">
            twitter quick start chat
           </a>
          </li>
          <li className="d-flex align-items-start mb-1">
-          <a href="/docs/5.2/getting-started/webpack/">
+          <a href="https:/wa.me/966505505400">
            telegram Webpack chat
           </a>
          </li>
          <li className="d-flex align-items-start mb-1">
-          <a href="/docs/5.2/getting-started/parcel/">wk Parcel chat</a>
+          <a href="https:/wa.me/966505505400">wk Parcel chat</a>
          </li>
          <li className="d-flex align-items-start mb-1">
-          <a href="/docs/5.2/getting-started/contribute/">
+          <a href="https:/wa.me/966505505400">
            Contributing to us
           </a>
          </li>
