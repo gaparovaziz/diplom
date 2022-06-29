@@ -19,7 +19,7 @@ function Contacts() {
       <p className="fs-5 col-md-8">
       Open your contact card in the Contacts app (or launch the Phone app and tap the Contacts app near the right side of the screen), then tap the three-dot menu button in the top-right corner of the screen.
       </p>
-    
+     
       <div className="mb-5">
        <a href="https:/wa.me/966505505400" className="btn btn-primary btn-lg px-4">
         Go to chat
