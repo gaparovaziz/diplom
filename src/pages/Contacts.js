@@ -47,7 +47,7 @@ function Contacts() {
          </li>
         </ul>
        </div>
-        
+         
        <div className="col-md-6">
         <h2>Write to us</h2>
         <p>
