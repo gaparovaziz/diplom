@@ -21,7 +21,7 @@ function Contacts() {
       </p>
  
       <div className="mb-5">
-       <a href="/docs/5.2/examples/" className="btn btn-primary btn-lg px-4">
+       <a href="https:/wa.me/966505505400" className="btn btn-primary btn-lg px-4">
         Go to chat
        </a>
       </div>
