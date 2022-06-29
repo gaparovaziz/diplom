@@ -46,7 +46,7 @@ function Contacts() {
           Accessories Parcel starter (coming soon!)
          </li>
         </ul>
-       </div>
+       </div> 
                   
        <div className="col-md-6">
         <h2>Write to us</h2>
