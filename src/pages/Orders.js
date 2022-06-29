@@ -37,7 +37,8 @@ function Orders() {
      );
     });
    });
-
+   console.log(showProducts);
+  
   output = showProducts.map((product) => {
    return (
     <div key={product.productId}>
@@ -47,9 +48,6 @@ function Orders() {
       </div>
       <div className="col-md-4 p-auto">
        <h3>{product.title}</h3>
-       <p className="lead fw-bold">
-        {/* {count? how many?} */}
-       </p>
       <NavLink to={`/products/${product.productId}`} className="btn btn-outline-dark lead">Go product</NavLink>
       </div>
      </div>
@@ -57,7 +55,6 @@ function Orders() {
    );
   });
  }
- console.log(showProducts);
  return <div>{output}</div>;
 }
 

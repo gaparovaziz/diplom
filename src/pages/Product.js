@@ -15,6 +15,7 @@ function Product() {
 
  function onAddToCart() {
   dispatch(add(params.productId));
+  console.log(params.productId)
  }
 
  return (
