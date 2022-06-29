@@ -25,7 +25,7 @@ function Contacts() {
         Go to chat
        </a>
       </div>
-  
+   
       <hr className="col-3 col-md-2 mb-5" />
  
       <div className="row g-5">
